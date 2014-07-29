@@ -4,10 +4,11 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
+    color: #7b6d45;
 }
 
 body.landing {
-  background-color: #f1f1f1;
+  background-color: #dbeef4;
     width: 100%;
 }
 
@@ -27,16 +28,18 @@ body.landing {
 }
 
 .section3 {
-    background-color: #999;
+    background-color: #dbeef4;
     width: 100%;
-    color: #fff;
+    color: #7b6d45;
+    padding-left: 60px;
+    margin-left: 15px;
 }
 
 .section4 {
-    background-color: #666;
+    background-color: #dbeef4;
     width: 100%;
-    font-size: 14px;
-    color:#f1f1f1;
+    color: #7b6d45;
+    margin-left: 60px;
 }
 
 .section5 {
@@ -46,16 +49,8 @@ body.landing {
     color:#f1f1f1;
 }
 
-.footer {
-   background-color: #000;
-    width: 100%;
-    text-align:center;
 
-}
 
-body.page {
-  background-color: #f1f1f1;
-}
 
 h1 {
   font-size: 28px;
@@ -175,6 +170,32 @@ a:link, a:visited, a:hover, a:active {
 
 /*** Navbar ***/
 
+.navbartcg {
+    margin-left: 60px;
+
+    
+}
+
+.tcg {
+        min-width:100px;
+
+    width: 100%;
+    padding: 15px;
+  height: auto;
+        background-color: #FFF;
+
+    
+}
+
+.direc {
+    
+    width: auto;
+        min-width:100px;
+    padding: 15px;
+  height: auto;
+    background-color: #FFF;
+    
+}
 
 .navbar {
   position: relative;
@@ -195,7 +216,7 @@ a:link, a:visited, a:hover, a:active {
 
 .navbar-inverse {
     margin: 0;
-    background-color: #333;
+    background-color: #dbeef4;
 }
 
 .navbar-fixed-top {
@@ -203,16 +224,13 @@ a:link, a:visited, a:hover, a:active {
   border-width: 0 0 1px;
 }
 .navbar-inverse {
-  background-color: #333;
-  border-color: #333;
+  background-color: #dbeef4;
+  border-color: #dbeef4;
 }
 
 .navbar-brand {
-  float: right;
-  height: 50px;
-  padding: 15px 5px;
-  font-size: 18px;
-  line-height: 20px;
+  float: left; 
+    width: 33%;
 }
 
 .navbar-right {
@@ -229,10 +247,7 @@ margin-left:40px;
   background-color: transparent;
 }
 
-.logo {
-  padding-top: 15px;
-  height: auto;
-}
+
 
 
 /*** Layout ***/
@@ -280,7 +295,6 @@ width:100%;
 }
 
 .row {
-    margin: 10px;
     text-align:center;
     font-size: 18x;
 }
@@ -359,5 +373,3 @@ table {
     color: #fff;
 }
 
-strong {
-    font-weight:1200;}
